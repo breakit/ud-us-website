@@ -1,0 +1,28 @@
+{
+  "name": "ud-us-website",
+  "version": "0.0.2",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "YK <yaroslav@unlimiteddemocracy.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
+    "next": "^12.3.1",
+    "preact": "^10.11.0",
+    "react": "npm:@preact/compat@^17.1.1",
+    "react-dom": "npm:@preact/compat@^17.1.1",
+    "react-redux": "^8.0.4",
+    "react-spring": "^9.5.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
